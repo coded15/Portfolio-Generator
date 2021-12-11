@@ -13,18 +13,23 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header dark={this.state.Dark} className="mb-5 justify-content-center">
-          Portfolio Generator Light
+        <Header dark={this.state.Dark} className="Header">
+          <span>Portfolio Generator</span>
           <button
-            className={"btn btn-sm btn-outline-primary ml-3  rounded-circle"}
+            className={"btn btn-sm btn-outline-primary rounded-circle"}
             onClick={this.toggleHeader}
-            justify-content-center
           >
             <i
               className={"fa fa-" + (this.state.Dark ? "sun" : "moon") + "-o"}
             ></i>
           </button>
         </Header>
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-12 col-sm-6">Form</div>
+            <div className="col-12 col-sm-6">Code</div>
+          </div>
+        </div>
       </div>
     );
   }
