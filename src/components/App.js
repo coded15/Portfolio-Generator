@@ -1,17 +1,29 @@
 import React, { Component } from "react";
-import Code from "./Bootstrap/Code";
-import Form from "./Bootstrap/Form";
 import Header from "./Bootstrap/Header";
+import Code from "./Code";
+import Form from "./Form";
 
 class App extends Component {
   state = {
     Dark: true,
+    FormData: {
+      FirstName: "Value of FirstName",
+      LastName: "Value of LastName",
+      Thumbnail: "Value of Thumbnail",
+      URL: "Value of URL",
+      Description: "Value of Description",
+      KeyWords: "Value of KeyWords",
+      Address: "Value of Address",
+      Phone: "Value of Phone",
+      Email: "Value of Email",
+    },
   };
   toggleHeader = () => {
     this.setState({
       Dark: !this.state.Dark,
     });
   };
+  handleChange = () => {};
   render() {
     return (
       <div className="App">
@@ -29,10 +41,18 @@ class App extends Component {
         <div className="container-fluid">
           <div className="row">
             <div className="col-12 col-sm-6">
-              <Form />
+              <Form
+                FormData={{
+                  FullName: `${this.state.FormData.FirstName} ${this.state.FormData.LastName}`,
+                  ...this.state.FormData,
+                }}
+              />
             </div>
             <div className="col-12 col-sm-6">
-              <Code />
+              <Code
+                {...this.state.FormData}
+                FullName={`${this.state.FormData.FirstName} ${this.state.FormData.LastName}`}
+              />
             </div>
           </div>
         </div>
