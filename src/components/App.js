@@ -23,7 +23,6 @@ class App extends Component {
       Dark: !this.state.Dark,
     });
   };
-  handleChange = () => {};
   render() {
     return (
       <div className="App">
