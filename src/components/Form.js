@@ -20,7 +20,7 @@ const Form = ({ FormData, onChange }) => {
     ],
     URL: [
       "text",
-      "website link",
+      "Website link",
       "Please enter the URL of your website, where, this page is going to be hosted.",
     ],
     Description: ["text", "About you", "Write something nice about you."],
