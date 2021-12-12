@@ -19,6 +19,15 @@ class App extends Component {
       Address: "Uttar Pradesh, India",
       Phone: "+918948410001",
       Email: "ichchhawork@gmail.com",
+      Socials: {
+        Facebook: "Ichchha Gupta",
+        WhatsApp: "Ichchha Gupta",
+        Instagram: "Ichchha Gupta",
+        Twitter: "Ichchha Gupta",
+        LinkedIn: "Ichchha Gupta",
+        GitHub: "Ichchha Gupta",
+        StackOverflow: "16420004",
+      },
       Experience: [
         {
           Role: "Awesome Developer",
@@ -37,7 +46,7 @@ class App extends Component {
       ],
       Education: [
         {
-          Degree: "B.Tech Mechanical Engineering",
+          Degree: "B.Tech in Mechanical Engineering",
           Institute: "IIT Guwahati",
           Desc: "",
           Start: "Nov 2021",
@@ -58,7 +67,7 @@ class App extends Component {
 
         "When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.",
       ],
-      Award: [
+      Awards: [
         "Google Analytics Certified Developer",
         "Mobile Web Specialist - Google Certification",
         "1 st Place - University of Colorado Boulder - Emerging Tech Competition 2009",
