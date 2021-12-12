@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Potfolio-Generator/static/css/main.5b1e04c8.chunk.css",
-    "main.js": "/Potfolio-Generator/static/js/main.9644ae60.chunk.js",
-    "main.js.map": "/Potfolio-Generator/static/js/main.9644ae60.chunk.js.map",
-    "runtime-main.js": "/Potfolio-Generator/static/js/runtime-main.d96fc101.js",
-    "runtime-main.js.map": "/Potfolio-Generator/static/js/runtime-main.d96fc101.js.map",
-    "static/js/2.00e21d72.chunk.js": "/Potfolio-Generator/static/js/2.00e21d72.chunk.js",
-    "static/js/2.00e21d72.chunk.js.map": "/Potfolio-Generator/static/js/2.00e21d72.chunk.js.map",
-    "static/js/3.951a678f.chunk.js": "/Potfolio-Generator/static/js/3.951a678f.chunk.js",
-    "static/js/3.951a678f.chunk.js.map": "/Potfolio-Generator/static/js/3.951a678f.chunk.js.map",
-    "index.html": "/Potfolio-Generator/index.html",
-    "static/css/main.5b1e04c8.chunk.css.map": "/Potfolio-Generator/static/css/main.5b1e04c8.chunk.css.map",
-    "static/js/2.00e21d72.chunk.js.LICENSE.txt": "/Potfolio-Generator/static/js/2.00e21d72.chunk.js.LICENSE.txt"
+    "main.css": "/Portfolio-Generator/static/css/main.5b1e04c8.chunk.css",
+    "main.js": "/Portfolio-Generator/static/js/main.9644ae60.chunk.js",
+    "main.js.map": "/Portfolio-Generator/static/js/main.9644ae60.chunk.js.map",
+    "runtime-main.js": "/Portfolio-Generator/static/js/runtime-main.3cb66b6e.js",
+    "runtime-main.js.map": "/Portfolio-Generator/static/js/runtime-main.3cb66b6e.js.map",
+    "static/js/2.00e21d72.chunk.js": "/Portfolio-Generator/static/js/2.00e21d72.chunk.js",
+    "static/js/2.00e21d72.chunk.js.map": "/Portfolio-Generator/static/js/2.00e21d72.chunk.js.map",
+    "static/js/3.951a678f.chunk.js": "/Portfolio-Generator/static/js/3.951a678f.chunk.js",
+    "static/js/3.951a678f.chunk.js.map": "/Portfolio-Generator/static/js/3.951a678f.chunk.js.map",
+    "index.html": "/Portfolio-Generator/index.html",
+    "static/css/main.5b1e04c8.chunk.css.map": "/Portfolio-Generator/static/css/main.5b1e04c8.chunk.css.map",
+    "static/js/2.00e21d72.chunk.js.LICENSE.txt": "/Portfolio-Generator/static/js/2.00e21d72.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d96fc101.js",
+    "static/js/runtime-main.3cb66b6e.js",
     "static/js/2.00e21d72.chunk.js",
     "static/css/main.5b1e04c8.chunk.css",
     "static/js/main.9644ae60.chunk.js"
