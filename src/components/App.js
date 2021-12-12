@@ -7,39 +7,66 @@ class App extends Component {
   state = {
     Dark: true,
     FormData: {
-      FirstName: "",
-      LastName: "",
-      Thumbnail: "",
-      URL: "",
-      Description: "",
-      KeyWords: "",
-      Address: "",
-      Phone: "",
-      Email: "",
+      FirstName: "Ichchha",
+      LastName: "Gupta",
+      Thumbnail:
+        "https://drive.google.com/uc?export=view&id=1ncbg8jyUeXfeCDlvrGwmW9kmhkXw9asZ",
+      URL: "https://www.linkedin.com/in/ichchha-gupta-361b99204/",
+      Description:
+        "I hold a special interest for robotics and coding...I am also fond of ideating a new thing and then making it in a team.",
+      KeyWords:
+        "Ichchha, Gupta, designing, webdeveloper, cad, innovator, creator, enthusiast",
+      Address: "Uttar Pradesh, India",
+      Phone: "+918948410001",
+      Email: "ichchhawork@gmail.com",
       Experience: [
         {
-          Role: "",
-          Company: "",
-          Desc: "",
-          Start: "",
-          End: "",
+          Role: "Awesome Developer",
+          Company: "Google",
+          Desc: "Working with Google as an awesome software developer and it's so good that I want everyone to work with me on React and Google.",
+          Start: "November 2021",
+          End: "Present",
+        },
+        {
+          Role: "Cool Developer",
+          Company: "Microsoft",
+          Desc: "Working with Microsoft as an awesome software developer and it's so good that I want everyone to work with me on VScode and Microsoft.",
+          Start: "November 2020",
+          End: "October 2021",
         },
       ],
       Education: [
         {
-          Degree: "",
-          Institute: "",
+          Degree: "B.Tech Mechanical Engineering",
+          Institute: "IIT Guwahati",
           Desc: "",
-          Start: "",
-          End: "",
+          Start: "Nov 2021",
+          End: "Present",
         },
       ],
       Skills: {
-        Tools: [],
-        Workflow: [],
+        Tools: ["html5", "css3", "react"],
+        Workflow: [
+          "Mobile-First, Responsive Design",
+          "Cross Browser Testing & Debugging",
+          "Cross Functional Teams",
+          "Agile Development & Scrum",
+        ],
       },
-      Interests: [],
-      Award: [],
+      Interests: [
+        "Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.",
+
+        "When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.",
+      ],
+      Award: [
+        "Google Analytics Certified Developer",
+        "Mobile Web Specialist - Google Certification",
+        "1 st Place - University of Colorado Boulder - Emerging Tech Competition 2009",
+        "1 st Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)",
+        "2 nd Place - University of Colorado Boulder - Emerging Tech Competition 2008",
+        "1 st Place - James Buchanan High School - Hackathon 2006",
+        "3 rd Place - James Buchanan High School - Hackathon 2005",
+      ],
     },
   };
   toggleHeader = () => {
