@@ -14,13 +14,19 @@ class App extends Component {
       URL: "https://www.linkedin.com/in/ichchha-gupta-361b99204/",
       Description: [
         "Hello, I am Ichchha... and I am a Pizza lover.",
+
         "I am a sophomore at IIT Guwahati. I love to explore, be it exploring new places or new skills, also I love to interact with people and do team projects with them.",
+
         "In my first year at college, I have worked with many people on a variety of projects and learned plenty of skills.",
+
         "Some of my skills are:",
+
         "Web Technologies:",
         "C++, python*, HTML, CSS*, NodeJS*, ReactJS*",
+
         "Design:",
         "Fusion 360, Adobe After Effects*, Adobe Premiere Pro*, Figma*, MATLAB*, Unity",
+
         "*elementary proficiency",
       ],
       KeyWords:
