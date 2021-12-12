@@ -20,12 +20,12 @@ class App extends Component {
       Phone: "+918948410001",
       Email: "ichchhawork@gmail.com",
       Socials: {
-        Facebook: "Ichchha Gupta",
-        WhatsApp: "Ichchha Gupta",
-        Instagram: "Ichchha Gupta",
-        Twitter: "Ichchha Gupta",
-        LinkedIn: "Ichchha Gupta",
-        GitHub: "Ichchha Gupta",
+        Facebook: "ichchha.gupta.543",
+        WhatsApp: "+918948410001",
+        Instagram: "ichchha._.gupta",
+        Twitter: "IchchhaGupta7",
+        LinkedIn: "ichchha-gupta-361b99204",
+        GitHub: "coded15",
         StackOverflow: "16420004",
       },
       Experience: [
