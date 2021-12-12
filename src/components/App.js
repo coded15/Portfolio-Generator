@@ -16,6 +16,14 @@ class App extends Component {
       Address: "",
       Phone: "",
       Email: "",
+      Experience: [],
+      Education: [],
+      Skills: {
+        Tools: [],
+        Workflow: [],
+      },
+      Interests: [],
+      Award: [],
     },
   };
   toggleHeader = () => {
